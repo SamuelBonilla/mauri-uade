@@ -7,9 +7,8 @@ public class Sistema {
 	
 	public Sistema() {
 		this.mensajes = new Vector();
-		
-		
 	}
+	
 	
 	
 }
