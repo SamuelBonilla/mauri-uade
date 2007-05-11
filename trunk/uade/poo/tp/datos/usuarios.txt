@@ -1,0 +1,13 @@
+USUARIO
+mauricio
+mauricio
+11111111
+
+santiago
+santiago
+22222222
+
+agustin
+agustin
+33333333
+FIN

@@ -1,0 +1,28 @@
+VUELOS
+Buenos Aires
+Las Flores
+LAPA
+28/08/2007
+28/08/2007
+VUELO 1
+120
+30
+
+Buenos Aires
+Las Flores
+MERCOSUR SA
+28/08/2007
+28/08/2007
+VUELO 2
+100
+20
+
+Buenos Aires
+Las Flores
+TITO
+28/08/2007
+28/08/2007
+VUELO 3
+45
+23
+FIN
