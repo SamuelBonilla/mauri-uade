@@ -1,0 +1,33 @@
+Paquetes
+Buenos Aires
+Las Flores
+LAPA
+28/08/2007
+28/08/2007
+VUELO 1
+120
+30
+
+Hotel Quillen
+Las Flores
+Avda San Martin 415
+5 Estrellas
+120
+40
+
+Buenos Aires
+Las Flores
+MERCOSUR SA
+28/08/2007
+28/08/2007
+VUELO 2
+100
+20
+
+Hotel Alcorta
+Las Flores
+Mtro A Alcorta 84
+5 Estrellas
+120
+40
+FIN
