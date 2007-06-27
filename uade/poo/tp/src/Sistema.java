@@ -19,6 +19,7 @@ public class Sistema {
 		vAux = new Vector();
 		usuarioActual=null;
 	}
+	
 	public Vector getAlojamientos() {
 		return alojamientos;
 	}
