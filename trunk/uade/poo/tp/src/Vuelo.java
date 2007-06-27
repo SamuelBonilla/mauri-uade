@@ -20,6 +20,28 @@ public class Vuelo extends Producto {
 		this.setPrecio(precio);
 		// TODO Auto-generated constructor stub
 	}
+	
+	public void setPrecio(float p) {
+		this.precio = p;
+	}
+	public float getPrecio() {
+		return this.precio;
+	}
+	public int getDisponibilidad() {
+		return this.disponibilidad;
+	}
+	public void setDisponibilidad(int dispo) { 
+		this.disponibilidad=dispo;
+	}
+	public boolean reservar(int cant) {
+		this.disponibilidad=this.disponibilidad-cant;
+		if (this.disponibilidad >= 0) return true;
+		else {
+			this.disponibilidad=this.disponibilidad + cant;
+			return false;
+			}
+		}
+	
 	public String getOrigen() {
 		return origen;
 	}

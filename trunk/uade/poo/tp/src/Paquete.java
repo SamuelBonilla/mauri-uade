@@ -7,6 +7,7 @@ public class Paquete {
 		this.productos= new Vector();
 		// TODO Auto-generated constructor stub
 	}
+	
 	public void agregarProducto(Producto p) {
 		productos.add(p);
 	}
