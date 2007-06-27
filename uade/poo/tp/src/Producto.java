@@ -1,4 +1,3 @@
-
 public abstract class Producto {
 	private String nombre;
 	private float precio;
@@ -7,26 +6,13 @@ public abstract class Producto {
 	public Producto() {
 		// TODO Auto-generated constructor stub
 	}
-	public void setPrecio(float p) {
-		this.precio = p;
-	}
-	public float getPrecio() {
-		return this.precio;
-	}
-	public int getDisponibilidad() {
-		return this.disponibilidad;
-	}
-	public void setDisponibilidad(int dispo) { 
-		this.disponibilidad=dispo;
-	}
-	public boolean reservar(int cant) {
-		this.disponibilidad=this.disponibilidad-cant;
-		if (this.disponibilidad >= 0) return true;
-		else {
-			this.disponibilidad=this.disponibilidad + cant;
-			return false;
-			}
-		}
+	
+	public abstract void setPrecio(float p) 
+	public abstract float getPrecio() 
+	public abstract int getDisponibilidad() 
+	public abstract void setDisponibilidad(int dispo)
+	public abstract boolean reservar(int cant)
+	
 	public void setEmpresa(String e) {
 		this.empresa= e;
 	}
