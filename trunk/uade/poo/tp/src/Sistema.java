@@ -10,14 +10,22 @@ public class Sistema {
 	Vector vuelos;
 	Vector vAux;
 	Usuario usuarioActual;
-	
-	public Sistema(){
+	static Sistema s;
+
+	private Sistema(){
 		super();
 		usuarios = new Vector();
 		alojamientos = new Vector();
 		vuelos = new Vector();
 		vAux = new Vector();
 		usuarioActual=null;
+		s = this;
+	}
+
+	public static Sistema crearSistema(){
+	if (s==null)
+		s = new Sistema();
+	return s;
 	}
 	
 	public Vector getAlojamientos() {
