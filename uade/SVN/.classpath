@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="LengVisuales"/>
+	<classpathentry kind="src" path="7 - Swing"/>
+	<classpathentry kind="src" path="1 - Introduccion"/>
+	<classpathentry kind="src" path="2 - Objetos"/>
+	<classpathentry kind="src" path="3 - Strings"/>
+	<classpathentry kind="src" path="4 - Numeros"/>
+	<classpathentry kind="src" path="5 - Arrays"/>
+	<classpathentry kind="src" path="6 - Matrices"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
