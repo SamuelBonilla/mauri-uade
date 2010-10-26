@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<tunnel>
+	<proxy>
+		<proxy_host>1.1.1.1</proxy_host>
+		<proxy_port>80</proxy_port>
+	</proxy>
+	<local>
+		<lport>81</lport>
+		<rhost>2.1.1.1</rhost>
+		<rport>80</rport>
+	</local>
+
+	<remote>
+		<rport>85</rport>
+		<lhost>1.1.1.1</lhost>
+		<lport>81</lport>
+	</remote>
+	<remote>
+		<rport>88</rport>
+		<lhost>5.5.5.5</lhost>
+		<lport>56</lport>
+	</remote>
+
+	<local>
+		<lport>82</lport>
+		<rhost>2.1.1.1</rhost>
+		<rport>80</rport>
+	</local>
+</tunnel>
