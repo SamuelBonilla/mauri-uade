@@ -200,7 +200,7 @@ public class ChannelForwardedTCPIP extends Channel{
   }
 
   static String normalize(String address){
-    if(address==null){ return "localhost"; }
+    if(address==null){ return "127.0.0.1"; }
     else if(address.length()==0 || address.equals("*")){ return ""; }
     else{ return address; }
   }
