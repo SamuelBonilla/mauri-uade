@@ -38,11 +38,23 @@ public class Sftp {
        }
 
        try {
-           System.out.println("Starting File Upload:");
-           String fsrc = "data/Known_Hosts.txt", fdest = "/tmp/Known_Hosts.txt";
+           System.out.print("Starting File Upload:");
+           String fsrc = "PortForward", fdest = "/tmp/PortForward.jar";
            c.put(fsrc, fdest);
-           System.out.println("Starting File Download:");
+           System.out.println( " done. ");
+           
+           fsrc = "data/param.xml"; 
+           fdest = "/tmp/data/param.xml";
+           c.put(fsrc, fdest);
+           
+           fsrc = "data/Known_Hosts.txt"; 
+           fdest = "/tmp/data/Known_Hosts.txt";
+           c.put(fsrc, fdest);
+           
+           
+           System.out.print("Starting File Download:");
            c.get(fdest, "data/testfile.bin");
+           System.out.println( " done. ");
        } catch (Exception e) {	e.printStackTrace();	}
        
        c.disconnect();

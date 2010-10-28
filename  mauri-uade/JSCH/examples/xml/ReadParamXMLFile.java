@@ -15,10 +15,11 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
-import app.Options;
-import app.OptionsLocal;
-import app.OptionsProxy;
-import app.OptionsRemote;
+import clases.Options;
+import clases.OptionsLocal;
+import clases.OptionsProxy;
+import clases.OptionsRemote;
+
 
 public class ReadParamXMLFile{
 
