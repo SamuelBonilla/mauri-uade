@@ -1,4 +1,4 @@
-package app;
+package clases;
 
 public class OptionsProxy extends Options {
 	private String proxyHost = null;
